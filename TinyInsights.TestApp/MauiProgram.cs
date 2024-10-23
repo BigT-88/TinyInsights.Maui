@@ -23,7 +23,6 @@ public static class MauiProgram
                     provider.IsAutoTrackPageViewsEnabled = true;
                     provider.IsTrackEventsEnabled = true;
                     provider.IsTrackDependencyEnabled = true;
-                    provider.IsAutoTrackPageViewsEnabled = true;
                 });
 
         builder.Services.AddSingleton<ILogger>((serviceProvider) =>
